@@ -6,11 +6,7 @@ function Car(name, modal, year, color, maxSpeed, fuelCapacity, fuelConsumption){
     this.color = color;
     this.maxSpeed = maxSpeed;
 
-    if(!fuelCapacity){
-        this.fuelCapacity = 60;
-    }else{
-        this.fuelCapacity = fuelCapacity;
-    }
+  this.fuelCapacity = fuelCapacity || 60;
 
     if(!fuelConsumption){
         this.fuelConsumption = 10;
