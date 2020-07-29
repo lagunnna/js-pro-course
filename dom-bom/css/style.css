@@ -1,0 +1,39 @@
+.modal{
+    width: 35vw;
+    height: 20vw;
+    right: 0;
+    bottom: 0;
+    position: absolute; 
+    box-shadow: -10px -10px 10px rgb(0, 0, 0, 0.6 );
+    -webkit-box-shadow: -10px -10px 10px rgb(0, 0, 0, 0.6 );
+    -moz-box-shadow: -10px -10px 10px rgb(0, 0, 0, 0.6 );
+}
+
+.modalWrapper{
+    height: 90%;
+    display: flex; 
+    flex-flow: wrap; 
+    padding: 1vw;
+    justify-content: space-around;
+}
+
+.notification{
+    width: 94%;
+    height: 90%;
+}
+
+.phrase{
+    overflow-y: scroll;
+    height: 65%;
+}
+
+.pagination{
+    display: flex;
+    margin-right: 5%;
+}
+
+.modalFooter{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

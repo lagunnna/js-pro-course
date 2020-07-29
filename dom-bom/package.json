@@ -1,0 +1,20 @@
+{
+  "name": "dom-bom",
+  "version": "0.1.0",
+  "description": "Adding notifications to any page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diana Kus",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-async-to-generator": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-polyfill": "^6.26.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.1"
+  }
+}
