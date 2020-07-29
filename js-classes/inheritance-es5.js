@@ -5,14 +5,8 @@ function Car(name, modal, year, color, maxSpeed, fuelCapacity, fuelConsumption){
     this.year = year;
     this.color = color;
     this.maxSpeed = maxSpeed;
-
-  this.fuelCapacity = fuelCapacity || 60;
-
-    if(!fuelConsumption){
-        this.fuelConsumption = 10;
-    }else{
-        this.fuelConsumption = fuelConsumption;
-    }
+    this.fuelCapacity = fuelCapacity || 60;
+    this.fuelConsumption = fuelConsumption || 10;
 }
 
 Car.prototype.getFullName = function(){
